@@ -4,6 +4,7 @@ import { logout } from "../config/firebase";
 import { useUserContext } from "../context/UserContext";
 import { MDBBtn } from "mdb-react-ui-kit";
 import { createGlobalStyle, ThemeProvider } from "styled-components";
+import ImgUser from "./imgenUsuario";
 
 const GlobalStyle = createGlobalStyle`
 body {
@@ -40,7 +41,8 @@ const Navbar = ({ theme, toggleTheme }) => {
             <NavLink to="/info-user" className="btn btn-primary">
               User Info
             </NavLink>
-           
+          <ImgUser/>
+
             <MDBBtn rounded className="mx-2" color="danger" onClick={handleLogout}>
               Log Out
             </MDBBtn>
