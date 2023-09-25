@@ -9,3 +9,4 @@ export default defineConfig({
   plugins: [react()],
   base: "/Proyect-React.git",
 })
+
