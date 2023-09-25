@@ -2,61 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Nova+Square&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Bruno Ace SC', cursive;
-}
-
-body {
-    background: #1f242d;
-    color: #fff;
-}
-
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-
-.logo{
-   font-family: 'Grenze Gotisch', cursive;
-   font-size: 45px;
-   color: #fff;
-   text-decoration: none;
-   font-weight: 600;
-   cursor: default;
-   opacity: 0;
-   animation: slideRight 1s ease forwards;   
-}
-
-.navbar a {
-    display: inline-block;
-    font-family: 'Russo One', sans-serif;
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: .3s;
-    opacity: 0;
-    animation: slideTop .5s ease forwards;
-    animation-delay: calc(.2s * var(--i));   
-}
-
-.navbar a:hover,
-.navbar a.active {
-    color: #0ef;
-}
-
 .home {
     position: relative;
     width: 100%;
@@ -173,8 +118,6 @@ body {
         opacity: 1;
     }
 }
-
-
 
 @keyframes slideBottom {
     0% {
