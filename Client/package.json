@@ -1,0 +1,42 @@
+{
+  "name": "desde-cero",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "vite build", 
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "body-parser": "^1.20.2",
+    "bootstrap-icons": "^1.11.1",
+    "express": "^4.18.2",
+    "firebase": "^10.3.0",
+    "local-storage-fallback": "^4.1.2",
+    "lodash": "^4.17.21",
+    "mdb-react-ui-kit": "^6.2.0",
+    "mongoose": "^7.5.2",
+    "nodemon": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-input-emoji": "^5.4.1",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.4.4",
+    "react-spinners": "^0.13.8",
+    "styled-components": "^6.0.8",
+    "styled-theming": "^2.2.0",
+    "sweetalert2": "^11.7.27"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "css-loader": "^6.8.1",
+    "gh-pages": "^6.0.0",
+    "style-loader": "^3.3.3",
+    "vite": "^3.2.3"
+  }
+}
